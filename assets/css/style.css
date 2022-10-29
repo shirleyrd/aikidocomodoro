@@ -145,17 +145,26 @@ h2 {
       
    
 }
+
+#articulo3 h3 {
+    font-size: 30px;
+}
 #articulo .texto {
     width: 50%;
     margin-left: 70px;
 
 }
-#articulo p {
+#articulo p, #articulo3 p {
     margin-top: 30px;
     font-size: 20px;
     text-align: justify;
     line-height: 2em;
 
+}
+#articulo3 ul {
+    font-size: 20px;
+    line-height: 2em;
+    margin-bottom: 30px;
 }
 
 
@@ -188,4 +197,29 @@ h2 {
 }
 
 
+.imgAikidoninos {
+    width:100%;
+}
 
+.subtitulo {
+    margin-left: 50px;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contenedor_entrenar {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.contenedor_entrenar p {
+    font-size: 20px;
+    text-align: justify;
+}
+
+.dojo {
+    margin-top: 25px;
+    font-weight: bold;
+}
