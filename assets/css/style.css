@@ -140,19 +140,7 @@ h2 {
   background-position: center;
 
 }
-#articulo3 h3 {
-  font-size: 30px;
-}
-#articulo3 .contenedor {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  text-align: justify;
-  background-image: url(../img/sakura.png);
-  background-repeat: no-repeat;
-  background-position: center;
 
-}
 
 
 .aikido1 {
@@ -171,25 +159,11 @@ h2 {
  
 }
 
-#articulo3 h3 {
-  font-size: 30px;
-}
-#articulo3 .contenedor {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  text-align: justify;
-  background-image: url(../img/sakura.png);
-  background-repeat: no-repeat;
-  background-position: center;
-
-}
-
 
 
 #articulo3 .texto {
   margin-inline: 70px;
-  width: 70%;
+  width: 90%;
   text-align: justify;
 }
 #articulo3 ul {
@@ -286,6 +260,9 @@ margin-bottom: 30px;
   nav {
     background-color: black;
     width: 100%;
+    margin-top: 15px;
+    padding-top: 0;
+    padding-bottom: 15px;
     opacity: .8;
     
     
@@ -329,17 +306,16 @@ margin-bottom: 30px;
   #queaikido .contenedor {
     flex-direction: column;
     text-align: center;    
-    background-image: none;
+    background-size: contain;
    
   }
 
   #queaikido p {
-    margin:0px;
+    width: 100%;
+    padding: 10px;
+    
     
   }
-
-
-
  
 
   .aikido1, .aikido2, .aikido3, .ninos {
@@ -349,8 +325,14 @@ margin-bottom: 30px;
     padding-bottom: 5px;
   }
 
+  
 
+  #articulo3 .contenedor {    
+   background-size:contain;   
+   margin:0;
+  }
 
+ 
   .contenedor_footer {
     flex-direction: column;
     
