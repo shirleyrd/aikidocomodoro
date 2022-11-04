@@ -115,16 +115,14 @@ h2 {
   
 }
 
-#queaikido .texto {
-  width: 90%; 
-  
-  
-}
+
 #queaikido p {
+  width: 90%;
   font-size: 20px;
   text-align: justify;
   line-height: 2em;
-  padding: 20px;
+  padding-left: 50px;
+  padding-top: 50px;
   
 }
 
@@ -159,15 +157,18 @@ h2 {
 
 .aikido1 {
   padding-top: 50px;
-  width: 650px;
+  width: 550px;
+  margin-right: 10px;
   
 }
 
 
 .aikido2, .aikido3 {
-  width: 650px;
+  width: 550px;
+  margin-right: 10px;
   padding-top: 30px;
   padding-bottom: 25px;
+ 
 }
 
 #articulo3 h3 {
@@ -332,21 +333,21 @@ margin-bottom: 30px;
    
   }
 
-
-
-  .imgAikido2 {
-    text-align: center;
+  #queaikido p {
+    margin:0px;
+    
   }
+
+
+
+ 
 
   .aikido1, .aikido2, .aikido3, .ninos {
     width: 80%;
     align-self: center;
+    margin-right: 0;
+    padding-bottom: 5px;
   }
-
-  
-
- 
-  
 
 
 
