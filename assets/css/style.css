@@ -287,4 +287,20 @@ margin-bottom: 30px;
   .contenedor_footer p {
     font-size: 10px;
   }
+ 
+
+ .divisores {
+  width:90%;
+ }
+
+ nav {
+  background-color: black;
+  
+ }
+
+ nav ul li a {
+  color: white;
+  text-shadow: none;
+ }
+
  }
