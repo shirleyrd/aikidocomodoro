@@ -126,6 +126,9 @@ h2 {
   
 }
 
+#articulo3 p {
+  width: 90%;
+}
 
 #articulo3 h3 {
   font-size: 30px;
@@ -135,6 +138,7 @@ h2 {
   display: flex;
   justify-content: center;
   text-align: justify;
+  margin-left: 45px;
   background-image: url(../img/sakura.png);
   background-repeat: no-repeat;
   background-position: center;
@@ -161,12 +165,10 @@ h2 {
 
 
 
-#articulo3 .texto {
-  margin-inline: 70px;
-  width: 90%;
-  text-align: justify;
-}
+
 #articulo3 ul {
+width: 80%;
+text-align: justify;
 font-size: 20px;
 line-height: 2em;
 margin-bottom: 30px;
@@ -327,10 +329,24 @@ margin-bottom: 30px;
 
   
 
-  #articulo3 .contenedor {    
-   background-size:contain;   
-   margin:0;
+  #articulo3 .contenedor {
+  width: 100%;
+  margin-left: 0;    
+   background-size:contain;
+
+   
   }
+
+  #articulo3 p {
+    width:100%;
+    padding: 10px;
+   
+  }
+
+  #articulo3 h3 {
+    text-align: center;
+  }
+  
 
  
   .contenedor_footer {
