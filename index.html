@@ -15,11 +15,13 @@
          
     <header>
         <div id="logo">        
-               <img class= "logotipo" src="./assets/img/LOGO_AIKIDO.png" alt="logotipo asociacion">
+               <img class= "logotipo" src="./assets/img/LOGO_AIKIDO.png" alt="logotipo asociacion">            
         </div>
         <div>
             <h1>Asociación de Aikido Comodorense</h1>
-        </div>  
+        </div> 
+        
+       
       
         <nav>
           <ul class="contenedorItem">
@@ -27,11 +29,11 @@
                 <a class ="navItem" href="index.html">Inicio</a>
               </li>
               <li>
-                <a class ="navItem navItem2" href="#quienessomos">¿Quiénes somos?</a>
+                <a class ="navItem" href="#quienessomos">¿Quiénes somos?</a>
               </li>
              
               <li>
-                  <a class ="navItem navItem3" href="#queaikido">¿Qué es el Aikido?</a>
+                  <a class ="navItem" href="#queaikido">¿Qué es el Aikido?</a>
               </li>
               <li>
                   <a class ="navItem" href="#dojos">¿Dónde entrenar?</a>
@@ -48,11 +50,6 @@
    
 
   <main>
-    
-    <!--<div class="imagen3">
-        <img class= "logotipo2" src="./assets/img/aikidotranspa.png" alt="logotipo asociacion"></a>
-    </div> -->     
-    
     
     
     <section id="quienessomos">
@@ -290,15 +287,26 @@
                 <i class="icons fa-brands fa-instagram"></i>
                 <a id=contacto href="mailto:aacomriv@gmail.com"><i class="icons fa-solid fa-envelope "></i></a>
             </div>
-            <div class="copy">
-                <p>©Todos los derechos reservados 2022 by Duran R</p>
-            </div>
-        
 
-       </footer>
+          <div class="contenedor_copy">  
+              <div class="copy">
+                  <p>©Todos los derechos reservados 2022 by Duran R</p>
+              </div>
+          </div>
+        </footer>
        
     
-    
+        <script src="https://code.jquery.com/jquery-3.6.1.min.js"integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="crossorigin="anonymous"></script>
+
+        <script>
+            $(document).ready(function(){
+                $('.menu-icon').click(function(){
+                    $('nav').slideToggle();
+
+                })
+
+            })
+        </script>
    </body>
 
 </html>

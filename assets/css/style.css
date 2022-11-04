@@ -10,6 +10,7 @@ header {
   background-image: url(../img/AIKIDO_BIG_1024x1024.jpg);
   background-size: cover;  
   width: 100%;
+  
 
 }
 
@@ -44,8 +45,7 @@ nav ul {
 }
 
 nav ul li {
-  float: left;
-  display: flex;
+  float: left;  
   justify-content: space-evenly;
   margin-top: 20px;
   margin-left: 25px;
@@ -116,7 +116,7 @@ h2 {
 }
 
 #queaikido .texto {
-  width: 600px; 
+  width: 90%; 
   
   
 }
@@ -251,9 +251,11 @@ margin-bottom: 30px;
   
 }
 
-.copy {
+
+.copy p{
   
   padding-bottom: 15px;
+  justify-self: center;
 }
 
 .icons {
@@ -263,12 +265,13 @@ margin-bottom: 30px;
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
 
   header {
     background-size: cover;
     flex-direction: column;
-    font-size: 10px;
+    font-size: 50%;
+    padding: 15px;
   }
   
  .logotipo {
@@ -278,6 +281,74 @@ margin-bottom: 30px;
 
 
   }
+
+  nav {
+    background-color: black;
+    width: 100%;
+    opacity: .8;
+    
+    
+   }
+  
+   nav ul {
+    display:flex;
+    flex-direction: column; 
+    font-size: 10px;
+    
+    
+   }
+  
+  
+  
+   nav ul li a {  
+    color: white;
+    text-shadow: none;
+    text-transform: uppercase;  
+    
+    
+   }
+  
+   #quienessomos .contenedor {    
+    flex-direction: column;
+    text-align: center;    
+    margin: 15px;
+
+    
+  }
+
+  #quienessomos .texto {
+    margin: 10px;
+    width:100%;
+    align-self: center;
+
+  }
+
+  
+
+  #queaikido .contenedor {
+    flex-direction: column;
+    text-align: center;    
+    background-image: none;
+   
+  }
+
+
+
+  .imgAikido2 {
+    text-align: center;
+  }
+
+  .aikido1, .aikido2, .aikido3, .ninos {
+    width: 80%;
+    align-self: center;
+  }
+
+  
+
+ 
+  
+
+
 
   .contenedor_footer {
     flex-direction: column;
@@ -293,14 +364,5 @@ margin-bottom: 30px;
   width:90%;
  }
 
- nav {
-  background-color: black;
-  
- }
 
- nav ul li a {
-  color: white;
-  text-shadow: none;
- }
-
- }
+}
