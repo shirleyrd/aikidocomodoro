@@ -227,12 +227,14 @@ margin-bottom: 30px;
   align-items: center;
   
 }
-
+.contenedor_copy {
+  justify-self: end;
+}
 
 .copy p{
   
   padding-bottom: 15px;
-  justify-self: center;
+  
 }
 
 .icons {
@@ -302,6 +304,9 @@ margin-bottom: 30px;
     align-self: center;
 
   }
+  #quienessomos p {
+    text-align: left;
+  }
 
   
 
@@ -314,6 +319,7 @@ margin-bottom: 30px;
 
   #queaikido p {
     width: 100%;
+    text-align: left;
     padding: 10px;
     
     
@@ -340,6 +346,7 @@ margin-bottom: 30px;
   #articulo3 p {
     width:100%;
     padding: 10px;
+    text-align: left;
    
   }
 
@@ -348,7 +355,19 @@ margin-bottom: 30px;
   }
   
 
- 
+ #dojos .contenedor_entrenar {
+  display: flex;
+  flex-direction: column;
+  
+ }
+ .dojo h3 {
+  text-align: center;
+  padding-bottom: 10px;
+ }
+ .dojo  p {
+  text-align: center;
+  padding-bottom: 15px;
+ }
   .contenedor_footer {
     flex-direction: column;
     
